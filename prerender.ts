@@ -30,7 +30,7 @@ export async function prerender(data: PrerenderData) {
 
   return {
     html: "", // React가 렌더링하므로 빈 문자열 처리
-    links: new Set(["/about", "/products/1"]), // 추가 프리렌더 경로
+    links: new Set(["/contact", "/setting"]), // 추가 프리렌더 경로
     data: { url: data.url },
     head: {
       lang: "ko",
