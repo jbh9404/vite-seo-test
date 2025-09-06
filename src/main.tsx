@@ -9,10 +9,8 @@
 //   </StrictMode>
 // );
 
-import React from "react";
 // import ReactDOM from "react-dom";
 import { hydrateRoot } from "react-dom/client";
-import { Helmet, HelmetProvider } from "react-helmet-async";
 import App from "./App";
 
 // const app = <App />;
