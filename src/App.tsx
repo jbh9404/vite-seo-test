@@ -9,7 +9,9 @@ function App() {
       <Router>
         <div>
           <Routes>
-            <Route path="/" element={<></>} />
+            <Route path="/" element={<>ss</>} />
+            <Route path="/about" element={<>ee</>} />
+            <Route path="/products" element={<>aa</>} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/setting" element={<Setting />} />
           </Routes>
